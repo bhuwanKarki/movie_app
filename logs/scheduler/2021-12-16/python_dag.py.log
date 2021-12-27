@@ -1,0 +1,240 @@
+[2021-12-16 11:17:32,806] {processor.py:163} INFO - Started process (PID=40) to work on /opt/airflow/dags/python_dag.py
+[2021-12-16 11:17:32,813] {processor.py:625} INFO - Processing file /opt/airflow/dags/python_dag.py for tasks to queue
+[2021-12-16 11:17:32,816] {logging_mixin.py:109} INFO - [2021-12-16 11:17:32,816] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:17:35,129] {logging_mixin.py:109} INFO - [2021-12-16 11:17:35,126] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/python_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/python_dag.py", line 19, in <module>
+    MOVIELENS_USER = os.environ["MOVIELENS_USER"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'MOVIELENS_USER'
+[2021-12-16 11:17:35,150] {processor.py:639} WARNING - No viable dags retrieved from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:17:35,163] {processor.py:171} INFO - Processing /opt/airflow/dags/python_dag.py took 2.363 seconds
+[2021-12-16 11:18:05,387] {processor.py:163} INFO - Started process (PID=352) to work on /opt/airflow/dags/python_dag.py
+[2021-12-16 11:18:05,396] {processor.py:625} INFO - Processing file /opt/airflow/dags/python_dag.py for tasks to queue
+[2021-12-16 11:18:05,399] {logging_mixin.py:109} INFO - [2021-12-16 11:18:05,399] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:18:06,031] {logging_mixin.py:109} INFO - [2021-12-16 11:18:05,986] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/python_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/python_dag.py", line 19, in <module>
+    MOVIELENS_USER = os.environ["MOVIELENS_USER"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'MOVIELENS_USER'
+[2021-12-16 11:18:06,060] {processor.py:639} WARNING - No viable dags retrieved from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:18:06,067] {processor.py:171} INFO - Processing /opt/airflow/dags/python_dag.py took 0.715 seconds
+[2021-12-16 11:18:37,049] {processor.py:163} INFO - Started process (PID=422) to work on /opt/airflow/dags/python_dag.py
+[2021-12-16 11:18:37,051] {processor.py:625} INFO - Processing file /opt/airflow/dags/python_dag.py for tasks to queue
+[2021-12-16 11:18:37,053] {logging_mixin.py:109} INFO - [2021-12-16 11:18:37,052] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:18:37,508] {logging_mixin.py:109} INFO - [2021-12-16 11:18:37,506] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/python_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/python_dag.py", line 19, in <module>
+    MOVIELENS_USER = os.environ["MOVIELENS_USER"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'MOVIELENS_USER'
+[2021-12-16 11:18:37,521] {processor.py:639} WARNING - No viable dags retrieved from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:18:37,534] {processor.py:171} INFO - Processing /opt/airflow/dags/python_dag.py took 0.489 seconds
+[2021-12-16 11:19:07,732] {processor.py:163} INFO - Started process (PID=483) to work on /opt/airflow/dags/python_dag.py
+[2021-12-16 11:19:07,733] {processor.py:625} INFO - Processing file /opt/airflow/dags/python_dag.py for tasks to queue
+[2021-12-16 11:19:07,735] {logging_mixin.py:109} INFO - [2021-12-16 11:19:07,735] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:19:08,157] {logging_mixin.py:109} INFO - [2021-12-16 11:19:08,154] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/python_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/python_dag.py", line 19, in <module>
+    MOVIELENS_USER = os.environ["MOVIELENS_USER"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'MOVIELENS_USER'
+[2021-12-16 11:19:08,168] {processor.py:639} WARNING - No viable dags retrieved from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:19:08,173] {processor.py:171} INFO - Processing /opt/airflow/dags/python_dag.py took 0.445 seconds
+[2021-12-16 11:19:38,966] {processor.py:163} INFO - Started process (PID=552) to work on /opt/airflow/dags/python_dag.py
+[2021-12-16 11:19:38,968] {processor.py:625} INFO - Processing file /opt/airflow/dags/python_dag.py for tasks to queue
+[2021-12-16 11:19:38,973] {logging_mixin.py:109} INFO - [2021-12-16 11:19:38,973] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:19:39,493] {logging_mixin.py:109} INFO - [2021-12-16 11:19:39,490] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/python_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/python_dag.py", line 19, in <module>
+    MOVIELENS_USER = os.environ["MOVIELENS_USER"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'MOVIELENS_USER'
+[2021-12-16 11:19:39,506] {processor.py:639} WARNING - No viable dags retrieved from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:19:39,513] {processor.py:171} INFO - Processing /opt/airflow/dags/python_dag.py took 0.552 seconds
+[2021-12-16 11:20:10,165] {processor.py:163} INFO - Started process (PID=621) to work on /opt/airflow/dags/python_dag.py
+[2021-12-16 11:20:10,168] {processor.py:625} INFO - Processing file /opt/airflow/dags/python_dag.py for tasks to queue
+[2021-12-16 11:20:10,169] {logging_mixin.py:109} INFO - [2021-12-16 11:20:10,169] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:20:10,649] {logging_mixin.py:109} INFO - [2021-12-16 11:20:10,647] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/python_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/python_dag.py", line 19, in <module>
+    MOVIELENS_USER = os.environ["MOVIELENS_USER"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'MOVIELENS_USER'
+[2021-12-16 11:20:10,663] {processor.py:639} WARNING - No viable dags retrieved from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:20:10,669] {processor.py:171} INFO - Processing /opt/airflow/dags/python_dag.py took 0.508 seconds
+[2021-12-16 11:20:40,804] {processor.py:163} INFO - Started process (PID=683) to work on /opt/airflow/dags/python_dag.py
+[2021-12-16 11:20:40,806] {processor.py:625} INFO - Processing file /opt/airflow/dags/python_dag.py for tasks to queue
+[2021-12-16 11:20:40,807] {logging_mixin.py:109} INFO - [2021-12-16 11:20:40,807] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:20:41,274] {logging_mixin.py:109} INFO - [2021-12-16 11:20:41,271] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/python_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/python_dag.py", line 19, in <module>
+    MOVIELENS_USER = os.environ["MOVIELENS_USER"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'MOVIELENS_USER'
+[2021-12-16 11:20:41,286] {processor.py:639} WARNING - No viable dags retrieved from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:20:41,291] {processor.py:171} INFO - Processing /opt/airflow/dags/python_dag.py took 0.491 seconds
+[2021-12-16 11:21:12,198] {processor.py:163} INFO - Started process (PID=752) to work on /opt/airflow/dags/python_dag.py
+[2021-12-16 11:21:12,200] {processor.py:625} INFO - Processing file /opt/airflow/dags/python_dag.py for tasks to queue
+[2021-12-16 11:21:12,201] {logging_mixin.py:109} INFO - [2021-12-16 11:21:12,201] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:21:12,574] {logging_mixin.py:109} INFO - [2021-12-16 11:21:12,571] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/python_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/python_dag.py", line 19, in <module>
+    MOVIELENS_USER = os.environ["MOVIELENS_USER"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'MOVIELENS_USER'
+[2021-12-16 11:21:12,585] {processor.py:639} WARNING - No viable dags retrieved from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:21:12,592] {processor.py:171} INFO - Processing /opt/airflow/dags/python_dag.py took 0.397 seconds
+[2021-12-16 11:21:43,582] {processor.py:163} INFO - Started process (PID=812) to work on /opt/airflow/dags/python_dag.py
+[2021-12-16 11:21:43,584] {processor.py:625} INFO - Processing file /opt/airflow/dags/python_dag.py for tasks to queue
+[2021-12-16 11:21:43,585] {logging_mixin.py:109} INFO - [2021-12-16 11:21:43,584] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:21:43,990] {logging_mixin.py:109} INFO - [2021-12-16 11:21:43,989] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/python_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/python_dag.py", line 19, in <module>
+    MOVIELENS_USER = os.environ["MOVIELENS_USER"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'MOVIELENS_USER'
+[2021-12-16 11:21:44,004] {processor.py:639} WARNING - No viable dags retrieved from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:21:44,009] {processor.py:171} INFO - Processing /opt/airflow/dags/python_dag.py took 0.430 seconds
+[2021-12-16 11:22:15,018] {processor.py:163} INFO - Started process (PID=882) to work on /opt/airflow/dags/python_dag.py
+[2021-12-16 11:22:15,021] {processor.py:625} INFO - Processing file /opt/airflow/dags/python_dag.py for tasks to queue
+[2021-12-16 11:22:15,022] {logging_mixin.py:109} INFO - [2021-12-16 11:22:15,022] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:22:15,443] {logging_mixin.py:109} INFO - [2021-12-16 11:22:15,441] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/python_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/python_dag.py", line 19, in <module>
+    MOVIELENS_USER = os.environ["MOVIELENS_USER"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'MOVIELENS_USER'
+[2021-12-16 11:22:15,454] {processor.py:639} WARNING - No viable dags retrieved from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:22:15,459] {processor.py:171} INFO - Processing /opt/airflow/dags/python_dag.py took 0.444 seconds
+[2021-12-16 11:22:45,495] {processor.py:163} INFO - Started process (PID=954) to work on /opt/airflow/dags/python_dag.py
+[2021-12-16 11:22:45,497] {processor.py:625} INFO - Processing file /opt/airflow/dags/python_dag.py for tasks to queue
+[2021-12-16 11:22:45,499] {logging_mixin.py:109} INFO - [2021-12-16 11:22:45,499] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:22:45,883] {logging_mixin.py:109} INFO - [2021-12-16 11:22:45,880] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/python_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/python_dag.py", line 19, in <module>
+    MOVIELENS_USER = os.environ["MOVIELENS_USER"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'MOVIELENS_USER'
+[2021-12-16 11:22:45,896] {processor.py:639} WARNING - No viable dags retrieved from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:22:45,901] {processor.py:171} INFO - Processing /opt/airflow/dags/python_dag.py took 0.410 seconds
+[2021-12-16 11:23:16,733] {processor.py:163} INFO - Started process (PID=1014) to work on /opt/airflow/dags/python_dag.py
+[2021-12-16 11:23:16,735] {processor.py:625} INFO - Processing file /opt/airflow/dags/python_dag.py for tasks to queue
+[2021-12-16 11:23:16,736] {logging_mixin.py:109} INFO - [2021-12-16 11:23:16,736] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:23:17,125] {logging_mixin.py:109} INFO - [2021-12-16 11:23:17,122] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/python_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/python_dag.py", line 19, in <module>
+    MOVIELENS_USER = os.environ["MOVIELENS_USER"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'MOVIELENS_USER'
+[2021-12-16 11:23:17,137] {processor.py:639} WARNING - No viable dags retrieved from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:23:17,143] {processor.py:171} INFO - Processing /opt/airflow/dags/python_dag.py took 0.414 seconds
+[2021-12-16 11:23:47,222] {processor.py:163} INFO - Started process (PID=1084) to work on /opt/airflow/dags/python_dag.py
+[2021-12-16 11:23:47,223] {processor.py:625} INFO - Processing file /opt/airflow/dags/python_dag.py for tasks to queue
+[2021-12-16 11:23:47,225] {logging_mixin.py:109} INFO - [2021-12-16 11:23:47,224] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:23:47,646] {logging_mixin.py:109} INFO - [2021-12-16 11:23:47,644] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/python_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/python_dag.py", line 19, in <module>
+    MOVIELENS_USER = os.environ["MOVIELENS_USER"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'MOVIELENS_USER'
+[2021-12-16 11:23:47,661] {processor.py:639} WARNING - No viable dags retrieved from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:23:47,668] {processor.py:171} INFO - Processing /opt/airflow/dags/python_dag.py took 0.450 seconds
+[2021-12-16 11:24:17,713] {processor.py:163} INFO - Started process (PID=1143) to work on /opt/airflow/dags/python_dag.py
+[2021-12-16 11:24:17,715] {processor.py:625} INFO - Processing file /opt/airflow/dags/python_dag.py for tasks to queue
+[2021-12-16 11:24:17,717] {logging_mixin.py:109} INFO - [2021-12-16 11:24:17,717] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:24:18,515] {logging_mixin.py:109} INFO - [2021-12-16 11:24:18,508] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/python_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/python_dag.py", line 19, in <module>
+    MOVIELENS_USER = os.environ["MOVIELENS_USER"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'MOVIELENS_USER'
+[2021-12-16 11:24:18,533] {processor.py:639} WARNING - No viable dags retrieved from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:24:18,540] {processor.py:171} INFO - Processing /opt/airflow/dags/python_dag.py took 0.831 seconds
+[2021-12-16 11:24:48,583] {processor.py:163} INFO - Started process (PID=1214) to work on /opt/airflow/dags/python_dag.py
+[2021-12-16 11:24:48,585] {processor.py:625} INFO - Processing file /opt/airflow/dags/python_dag.py for tasks to queue
+[2021-12-16 11:24:48,586] {logging_mixin.py:109} INFO - [2021-12-16 11:24:48,586] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:24:48,965] {logging_mixin.py:109} INFO - [2021-12-16 11:24:48,962] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/python_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/python_dag.py", line 19, in <module>
+    MOVIELENS_USER = os.environ["MOVIELENS_USER"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'MOVIELENS_USER'
+[2021-12-16 11:24:48,978] {processor.py:639} WARNING - No viable dags retrieved from /opt/airflow/dags/python_dag.py
+[2021-12-16 11:24:48,983] {processor.py:171} INFO - Processing /opt/airflow/dags/python_dag.py took 0.404 seconds

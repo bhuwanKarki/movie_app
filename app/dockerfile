@@ -1,0 +1,14 @@
+FROM python:3.8-slim
+
+COPY requirements.txt /tmp/requirements.txt
+RUN pip install -r /tmp/requirements.txt && rm -f /tmp/requirements.txt
+
+COPY app.py fetch.py /
+RUN python fetch.py --output_path rating.csv
+#ENV API_USER="bhuwan"
+#ENV API_PASSWORD="pass"
+
+EXPOSE 5005
+
+ENTRYPOINT ["python"]
+CMD ["/app.py"]
